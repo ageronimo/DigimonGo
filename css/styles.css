@@ -1,0 +1,81 @@
+header {
+  background-color: white;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content:"";
+  clear: both;
+  height: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Baloo Bhai', cursive;
+  color: #47779A;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.navcontent {
+  float: right;
+  list-style: none;
+  color: #47779A;
+}
+
+.navcontent ul li {
+  display: inline-block;
+  margin-bottom: 25px 10px;
+}
+
+.container {
+  background-color: #0E588D;
+}
+
+.container2 {
+  border: 2px solid #979797;
+  width: 500px;
+  padding: 25px;
+  background-color: white;
+}
+
+.what {
+  width: 300px;
+  padding: 20px;
+  float: left;
+}
+
+.talkie {
+  float: right;
+}
+
+.bottomhalf {
+  background-color: #DFDFDF;
+}
+
+.bottomhalf h2 {
+  color: #47779A;
+}
+
+.bottomhalf hr,li {
+  color: #4A4A4A;
+}
+
+.list {
+  background-color: #F0F0F0;
+}
+
+hr {
+  noshade;
+}
+
+footer {
+  background-color: #4A4A4A;
+  color: #FCFCFC;
+}
+/* color of highlighted text (hovered) is #F5A623 */
+
