@@ -12,7 +12,7 @@ header {
 }
 
 h1, h2, h3 {
-  font-family: 'Baloo Bhai', cursive;
+  font-family: 'Sarpanch', sans-serif;
   color: #47779A;
 }
 
@@ -41,16 +41,24 @@ body {
   width: 500px;
   padding: 25px;
   background-color: white;
+  border-radius: 10px;
+  background-image: "../assets/talkie.png";
+  height: 175px;
 }
 
 .what {
   width: 300px;
-  padding: 20px;
+  padding: 10px;
   float: left;
+  height: 125px;
 }
 
 .talkie {
-  float: right;
+  
+}
+
+.hero {
+
 }
 
 .bottomhalf {
