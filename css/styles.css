@@ -18,51 +18,88 @@ h1, h2, h3 {
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.logo {
+  margin-left: 50px;
+}
+header {
+  height: 80px;
+  font-family: 'Sarpanch', sans-serif;
 }
 
 .navcontent {
   float: right;
   list-style: none;
   color: #47779A;
+  margin-right: 100px;
+
+}
+
+.navcontent li:hover {
+  color: #F5A623;
+  border-bottom: 2px solid #F5A623;
 }
 
 .navcontent ul li {
   display: inline-block;
-  margin-bottom: 25px 10px;
+  margin-bottom: 30px;
+  color: #0E588D;
+  margin: 10px 5px 5px 5px;
+  padding: 10px;
+}
+
+.upperhalf {
+  background-color: #0E588D;
+  height: 390px;
+  width: 100%;
+  background-image: url(../assets/hero.png);
+  background-size: 900px 400px;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  padding-top: 100px;
 }
 
 .container {
-  background-color: #0E588D;
-}
-
-.container2 {
-  border: 2px solid #979797;
-  width: 500px;
+  border: 1px solid #979797;
+  border-radius: 13px;
+  width: 480px;
   padding: 25px;
   background-color: white;
-  border-radius: 10px;
-  background-image: "../assets/talkie.png";
   height: 175px;
+  padding-bottom: 30px;
+  color: #4A4A4A;
+  margin-left: 50px;
+
+}
+
+h2 {
+  font-size: 1.7em;
+  margin: 0px;
 }
 
 .what {
   width: 300px;
   padding: 10px;
   float: left;
-  height: 125px;
+  overflow: hidden;
+
 }
 
 .talkie {
-  
+ 
 }
 
 .hero {
-
+float: right;
+padding: 25px;
 }
 
 .bottomhalf {
-  background-color: #DFDFDF;
+  background-color: #DEDEDE;
+  margin: 0px;
 }
 
 .bottomhalf h2 {
@@ -75,15 +112,32 @@ body {
 
 .list {
   background-color: #F0F0F0;
+  padding: 10px 15px 10px 15px;
+  width: 25%;
+  float: left;
+  height: 200px;
+  margin: 30px 25px 40px 25px;
+  border: 1px solid #979797;
+  border-radius: 13px;
+  box-shadow: 0px 0px 1px 1px #979797;
 }
 
-hr {
-  noshade;
+#first {
+margin-left: 80px;
+}
+
+.list h2 {
+  text-align: center;
 }
 
 footer {
+  font-family: 'Sarpanch', sans-serif;
   background-color: #4A4A4A;
   color: #FCFCFC;
+  height: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
 }
 /* color of highlighted text (hovered) is #F5A623 */
 
